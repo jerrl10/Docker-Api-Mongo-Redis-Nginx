@@ -1,0 +1,6 @@
+use("test");
+
+db.posts.insertOne({
+  title: "title from vs code",
+  body: "body from vs code",
+});
